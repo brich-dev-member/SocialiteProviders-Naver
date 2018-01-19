@@ -1,10 +1,13 @@
 {
-    "name": "socialiteproviders/naver",
+    "name": "curlychoi/socialiteproviders-naver",
     "description": "Naver OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
         "name": "Doojin So",
         "email": "sodoojin@gmail.com"
+    },{
+        "name": "curlychoi",
+        "email": "curlychoi@gmail.com"
     }],
     "require": {
         "php": "^5.6 || ^7.0",
