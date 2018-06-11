@@ -97,9 +97,9 @@ class NaverProvider extends AbstractProvider implements ProviderInterface
             'id' => $user['id'],
             'name' => $user['name'] ?? null,
             'enc_id' => $user['enc_id'] ?? null,
-            'nickname' => $user['nickname'],
-            'email' => $user['email'],
-            'avatar' => $user['profile_image'],
+            'nickname' => $user['nickname'] ?? null,
+            'email' => $user['email'] ?? null,
+            'avatar' => $user['profile_image'] ?? null,
         ]);
     }
 
